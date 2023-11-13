@@ -21,6 +21,10 @@
  * By plotting graph between no_pca_components vs cumm_explained_variance , choosen no_pca_components @ cumm_explained_variance 95 % or 99 %
 
 **Model Building and Evaluation**:
- * Built a simple neural network model using tensor flow and keras.
+ * Created a MLP using tensor flow and keras.
+ * The MLP model is defined using Sequential from Keras, with three dense layers (i/p ,hidden & o/p layers)
+ * The model is compiled with an optimizer (Adam), a loss function (categorical_crossentropy for multi-class classification), and a performance metric (accuracy).
+ * Trained and compiled the NN model and visualized model metrics (accuracy and loss) through 30 epochs which performed with an validation_accuracy of 0.9783 and val_loss: 0.0802
+
   
 
